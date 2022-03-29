@@ -1,0 +1,11 @@
+secretGenerator:
+- name: mysql-pass
+  namespace: blog
+  literals:
+  - password=P@ssw0rd
+
+resources:
+  - ns-blog.yaml
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+  - blog-ingress.yaml
