@@ -1,2 +1,2 @@
 # k8s-hw-wp-mysql
-Homework on K8s
+K8s Homework
